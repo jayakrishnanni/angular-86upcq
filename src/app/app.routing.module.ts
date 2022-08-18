@@ -14,4 +14,4 @@ import { ErrorComponent } from './views/error/error.component';
   exports: [RouterModule],
   providers: [],
 })
-export class AppRoutingModule {}
+export class AppRoutingModul {}
