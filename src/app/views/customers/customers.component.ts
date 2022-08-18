@@ -8,14 +8,11 @@ import { ApiService } from '../../services/api.service';
   styleUrls: ['./customers.component.css']
 })
 export class CustomersComponent implements OnInit {
-  newsResponses: JSON | any;
+  
   constructor(private api : ApiService) { }
   
   ngOnInit() {
-     this.api.getNews()
-     .subscribe((data: any)=> {
-            this.newsResponses = data;
-     })
+   
   }
 
 }

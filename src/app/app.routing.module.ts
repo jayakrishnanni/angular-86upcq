@@ -9,7 +9,9 @@ import { CustomersComponent } from './views/customers/customers.component';
   imports: [
     RouterModule.forRoot([
       { path: 'login', component: LoginComponent },
+      
       { path: 'customers', component: CustomersComponent },
+
       { path: '**', component: ErrorComponent},
     ]),
   ],
